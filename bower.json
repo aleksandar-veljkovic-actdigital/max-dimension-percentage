@@ -1,0 +1,28 @@
+{
+  "name": "max-height-percentage",
+  "main": "max-height-percentage.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/biosonic/max-height-percentage",
+  "authors": [
+    "Aleksandar Veljkovic <aleksandar.veljkovic@diwanee.com>"
+  ],
+  "description": "fix for max-height given by percents",
+  "keywords": [
+    "css",
+    "javascript",
+    "jqury",
+    "max-height",
+    "percents"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
