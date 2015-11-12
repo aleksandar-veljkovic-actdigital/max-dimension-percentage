@@ -1,13 +1,13 @@
-# max-height-percentage
+# Max dimension percentage
 
-In some circumstances CSS max-height given by percents is not working. This jQuery plugin can fix that problem.
+In some circumstances CSS max-height and max-width given by percents are not working. This jQuery plugin can fix that problem.
 
 ## Usage
 
-**$('TARGET_SELECTOR').maxHeightPercentage(PERCENTAGE, $SOURCE)**
+**$('TARGET_SELECTOR').maxDimensionPercentage({pct:PERCENTAGE, $source:$SOURCE})**
 * TARGET_SELECTOR: selector for element on which max-height is applyed
-* PERCENTAGE: max-height in percents to apply
-* $SOURCE: jQuery object to get as relatve parent for percentage calculations
+* pct: max-height and max-width in percents to apply
+* $source: jQuery object to get as relatve parent for percentage calculations
 
 ## Example
 ``` html
@@ -23,7 +23,7 @@ In some circumstances CSS max-height given by percents is not working. This jQue
 
 <!-- initialize jQuer plugin on element -->
 <script>
-  var RETURNED_OBJECT = $('.target').maxHeightPercentage(100, $('.parent-source'))
+  var RETURNED_OBJECT = $('.target').maxHeightPercentage({pct:100, $source:$('.parent-source')})
 </script>
 
 
