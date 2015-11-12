@@ -1,7 +1,7 @@
 {
   "name": "max-dimension-percentage",
   "main": "max-dimension-percentage.js",
-  "versioion": "0.0.0",
+  "version": "*",
   "homepage": "https://github.com/biosonic/max-dimension-percentage",
   "authors": [
     "Aleksandar Veljkovic <aleksandar.veljkovic@diwanee.com>"
@@ -10,10 +10,10 @@
   "keywords": [
     "css",
     "javascript",
-    "jqury",
-    "max-height",
+    "jquery",
     "max-width",
-    "percents"
+    "max-height",
+    "precents"
   ],
   "license": "MIT",
   "ignore": [
